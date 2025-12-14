@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航栏（吸顶） -->
+    <nav class="top-nav" id="topNav">
+        <div class="nav-container">
+            <ul>
+                <li><a href="#home">个人首页</a></li>
+                <li><a href="#plan" class="active">战斗记录</a></li>
+                <li><a href="#guest">访客留言</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主体容器 -->
+    <div class="container">
+        <!-- 左侧侧边栏 -->
+        <aside class="sidebar">
+            <div class="avatar-box">
+                <img src="3.jpg" alt="头像" class="avatar">
+                <h2>迪迦奥特曼</h2>
+                <p>超古代光之巨人</p>
+                <div class="info-tags">
+                    <span class="tag">光</span>
+                    <span class="tag">5000万岁</span>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="#home">个人首页</a></li>
+                <li><a href="#plan" class="active">战斗记录</a></li>
+                <li><a href="#guest">访客留言</a></li>
+            </ul>
+        </aside>
+
+        <!-- 右侧内容区 -->
+        <main class="content">
+            <!-- 个人首页板块（新增） -->
+            <section id="home" class="section" style="display: none;">
+                <div class="breadcrumbs">
+                    <span>个人首页</span>
+                </div>
+                
+                <!-- 个人简介 -->
+                <div class="profile-intro">
+                    <h2 class="section-title">👊 个人简介</h2>
+                    <div class="intro-content">
+                        <p>迪迦奥特曼，超古代时期就出现在地球的光之巨人，拥有复合型、空中型、强力型三种形态，能够适应不同战斗场景切换形态。</p>
+                        <p>作为守护地球的英雄，曾击败哥尔赞、美尔巴、加坦杰厄等强敌，始终秉持「光的意志」，为保护人类与地球而战。</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>常驻地点：日本东京</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>紧急联络：胜利队总部</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>邮箱：ultraman_tiga@tpc.org</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 核心能力 -->
+                <div class="abilities" style="margin-top: 30px;">
+                    <h2 class="section-title">✨ 核心能力</h2>
+                    <div class="ability-grid">
+                        <div class="ability-card">
+                            <i class="fas fa-bolt"></i>
+                            <h3>哉佩利敖光线</h3>
+                            <p>复合型必杀技，双手组成十字形发射的超高热光线，能摧毁绝大多数怪兽</p>
+                        </div>
+                        <div class="ability-card">
+                            <i class="fas fa-feather-alt"></i>
+                            <h3>空中型形态</h3>
+                            <p>速度提升，擅长空中作战，必杀技为兰帕尔特光弹</p>
+                        </div>
+                        <div class="ability-card">
+                            <i class="fas fa-fist-raised"></i>
+                            <h3>强力型形态</h3>
+                            <p>力量最大化，近身格斗能力极强，必杀技为迪拉休姆光流</p>
+                        </div>
+                        <div class="ability-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>奥特屏障</h3>
+                            <p>生成光之屏障，抵御怪兽的光线和物理攻击</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 战斗成就 -->
+                <div class="achievements" style="margin-top: 30px;">
+                    <h2 class="section-title">🏆 战斗成就</h2>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <span class="achievement-date">3000万年前</span>
+                            <div class="achievement-content">
+                                <h3>封印黑暗巨人</h3>
+                                <p>击败卡蜜拉、达拉姆、希特拉，封印黑暗力量，成为光之巨人</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-date">1996年</span>
+                            <div class="achievement-content">
+                                <h3>击败哥尔赞&美尔巴</h3>
+                                <p>首次现身，击败破坏金字塔的两大怪兽，守护地球文明</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-date">1997年</span>
+                            <div class="achievement-content">
+                                <h3>战胜加坦杰厄</h3>
+                                <p>在人类的光的支持下，变身闪耀迪迦，击败最终BOSS加坦杰厄</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 数据统计 -->
+                <div class="stats" style="margin-top: 30px;">
+                    <h2 class="section-title">📊 战斗数据</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">121</span>
+                            <span class="stat-label">战斗场次</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">118</span>
+                            <span class="stat-label">胜利场次</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">97.5%</span>
+                            <span class="stat-label">胜率</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">形态数量</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 战斗记录板块 -->
+            <section id="plan" class="section">
+                <div class="breadcrumbs">
+                    <a href="#home">个人首页</a> &gt; <span>战斗记录</span>
+                </div>
+                <div class="card-grid">
+                    <!-- 卡片1 -->
+                    <div class="card">
+                        <h3>大战<br>基里艾洛德人·</h3>
+                        <p>完成一个小目标后，不妨给自己适当的奖励</p>
+                        <img src="1.jpg" alt="花">
+                        <button class="card-btn">查看详情</button>
+                    </div>
+                    <!-- 卡片2 -->
+                    <div class="card">
+                        <h3>激战<br>超古代怪兽哥尔赞</h3>
+                        <p>规律作息能让生活更有活力，保持充足的活力</p>
+                        <img src="2.jpg" alt="花">
+                        <button class="card-btn">查看详情</button>
+                    </div>
+                    <!-- 卡片3 -->
+                    <div class="card">
+                        <h3>对决<br>黑暗迪迦</h3>
+                        <p>尽量一次只专注一件事，一段时间内只做好一件事</p>
+                        <img src="4.jpg" alt="花">
+                        <button class="card-btn">查看详情</button>
+                    </div>
+                    <!-- 卡片4 -->
+                    <div class="card">
+                        <h3>对战<br>加坦杰厄</h3>
+                        <p>将大任务分解成若干小目标的小任务，会更有节奏</p>
+                        <img src="5.jpg" alt="花">
+                        <button class="card-btn">查看详情</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 访客留言板块 -->
+            <section id="guest" class="section" style="margin-top: 40px; display: none;">
+                <div class="breadcrumbs">
+                    <a href="#home">个人首页</a> &gt; <span>访客留言</span>
+                </div>
+                <div class="guest-book">
+                    <h3>留下你的足迹 ✨</h3>
+                    <form id="guestForm" class="guest-form">
+                        <div class="form-group">
+                            <label for="name">昵称：</label>
+                            <input type="text" id="name" placeholder="请输入你的昵称" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言：</label>
+                            <textarea id="message" rows="4" placeholder="想说的话..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">提交留言</button>
+                    </form>
+                    <div class="message-list" id="messageList">
+                        <!-- 留言列表（JS动态渲染） -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- 模态框 -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modalTitle">标题</h3>
+            <p id="modalDesc">详细描述</p>
+        </div>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
